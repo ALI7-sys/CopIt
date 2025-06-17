@@ -2,7 +2,7 @@ db = db.getSiblingDB('ecommerce');
 
 db.createUser({
   user: 'ecommerce_user',
-  pwd: 'ecommerce_password',
+  pwd: process.env.MONGO_USER_PASSWORD || 'ecommerce_password',
   roles: [
     {
       role: 'readWrite',
