@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+celery = "==5.3.6"
+redis = "==5.0.1"
+python-dotenv = "==1.0.1"
+ratelimit = "==2.2.1"
+tenacity = "==8.2.3"
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+djangorestframework-simplejwt = "*"
+beautifulsoup4 = "*"
+requests = "*"
+fake-useragent = "*"
+drf-yasg = "*"
+drf-nested-routers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
